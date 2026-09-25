@@ -1,6 +1,6 @@
 # > francesco_cucinotta
 
-**IT Support Specialist | Cybersecurity Enthusiast**
+**Cybersecurity Enthusiast**
 
 Help desk, reti aziendali, virtualizzazione — e la testa sempre rivolta verso la sicurezza offensiva.
 
