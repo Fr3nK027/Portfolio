@@ -364,6 +364,7 @@
     #home{ padding:56px 0 64px; }
     .navrow{ height:60px; }
     .brand{ font-size:14px; }
+    .navcta .theme-toggle{ display:none; } /* già presente nel menu mobile */
     .btn{ padding:8px 14px; font-size:12px; }
     .hero-kicker{ font-size:12px; padding:5px 11px; }
     .term-body{ padding:16px 14px; font-size:12px; min-height:auto; }
@@ -373,6 +374,8 @@
   @media (max-width:380px){
     .brand{ font-size:12.5px; }
     .brand span.cursor{ display:none; }
+    .navcta{ gap:4px; }
+    .navcta .btn{ padding:8px 10px; }
     h1.hero-title{ font-size:26px; }
   }
 
