@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /Install/
+Disallow: /Assistenza.exe
+
+Sitemap: https://portfolio.francecuci.com/sitemap.xml
