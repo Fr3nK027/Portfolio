@@ -222,9 +222,9 @@
   .tl-org{ color:var(--text-muted); font-size:14px; font-style:italic; margin-bottom:10px; }
   .tl-list{ margin:0; padding-left:18px; color:var(--text-muted); font-size:14.5px; }
   .tl-list li{ margin-bottom:5px; }
-  .tl-minor{ opacity:.75; }
-  .tl-minor .tl-role{ font-size:15px; }
-  .tl-note{ margin:0; color:var(--text-muted); font-size:14px; }
+  .tl-more summary{ display:inline-block; cursor:pointer; font-family:var(--mono); font-size:13px; color:var(--text-muted); border:1px solid var(--border); border-radius:6px; padding:6px 12px; transition:color .15s, border-color .15s; }
+  .tl-more summary:hover, .tl-more[open] summary{ color:var(--accent); border-color:var(--accent); }
+  .tl-more[open] summary{ margin-bottom:28px; }
 
   .edu-grid{ display:grid; grid-template-columns:1fr 1fr; gap:20px; }
   @media (max-width:700px){ .edu-grid{ grid-template-columns:1fr; } }
